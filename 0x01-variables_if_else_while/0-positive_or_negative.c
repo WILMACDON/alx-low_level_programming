@@ -7,7 +7,7 @@
  * and if it's positive, negative or zero
  * Return o
  */
-int manin(void)
+int main(void)
 {
 int n;
 srand(time(0));
