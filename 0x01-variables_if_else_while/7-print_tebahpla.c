@@ -4,12 +4,12 @@
 /**
  * main - main block
  * Description: Prints lowercase letters in reverse
- * return: 0
+ * Return:0
  */
 int main(void)
 {
 	char c = 'z';
-	
+
 	while (c >= 'a')
 	{
 		putchar(c);
