@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 /**
  * main - check the code for Holberton School students.
  *
@@ -14,29 +14,29 @@ int main(void)
 	{
 		f (i % 3 == 0 && i % 5 == 0)
 		{
-			printf("FizzBuzz");
+			_putchar("FizzBuzz");
 		}
 		else if (i % 3 == 0)
 		{
-			printf("Fizz");
+			_putchar("Fizz");
 		}
 		else if (i % 5 == 0)
 		{
-			printf("Buzz");
+			_putchar("Buzz");
 		}
 		else
 		{
-			printf("%i", i);
+			_putchar("%i", i);
 		}
 
 		if (i != 100)
 		{
-			putchar(' ');
+			_putchar(' ');
 		}
 
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 
 }
