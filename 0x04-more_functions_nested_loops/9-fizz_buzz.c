@@ -1,42 +1,27 @@
-#include "main.h"
+#include <stdio.h>
+
 /**
- * main - check the code for Holberton School students.
+ * main - program that prints the numbers from 1 to 100, followed by a new line
  *
- * Return: void.
+ * Return: Always 0;
  */
 
 int main(void)
 {
-
 	int i = 1;
 
-	while (i <= 100)
+	for (; i < 100; i++)
 	{
-		f (i % 3 == 0 && i % 5 == 0)
-		{
-			_putchar("FizzBuzz");
-		}
+		if ((i % 3 == 0) && (i % 5 == 0))
+			printf("FizzBuzz ");
 		else if (i % 3 == 0)
-		{
-			_putchar("Fizz");
-		}
+			printf("Fizz ");
 		else if (i % 5 == 0)
-		{
-			_putchar("Buzz");
-		}
+			printf("Buzz ");
 		else
-		{
-			_putchar("%i", i);
-		}
-
-		if (i != 100)
-		{
-			_putchar(' ');
-		}
-
-		i++;
+			printf("%d ", i);
 	}
-	_putchar('\n');
-	return (0);
+	printf("Buzz\n");
 
+	return (0);
 }
