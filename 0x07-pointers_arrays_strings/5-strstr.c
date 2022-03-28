@@ -1,11 +1,14 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strstr - Locating a substring
- * @needle: Occurance to find
- * @haystack: String to search
- * Return: Pointer
+ * *_strstr - description
+ * @haystack: string
+ * @needle: pointer
+ * Return: pointer
  */
+
+
 
 char *_strstr(char *haystack, char *needle)
 {
