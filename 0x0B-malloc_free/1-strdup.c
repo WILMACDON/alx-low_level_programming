@@ -18,7 +18,7 @@ if (str == NULL)
 	return (NULL);
 
 
-for (; str[size] != '\0';) 
+for (; str[size] != '\0';)
 	size++;
 
 
